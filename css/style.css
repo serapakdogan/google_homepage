@@ -1,0 +1,225 @@
+.voice-img{
+    display: flex;
+    
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    width: 24px; 
+    line-height: 44px;
+    padding-right: 13px;
+    
+}
+.header {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+.headerli {
+  display: inline;
+  float: right;
+  padding-right: 0px;
+  padding: 3px;
+  text-align: center;
+}
+.headerli a {
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: -77px;
+  max-width: 584px;
+  border-radius: 25px;
+  
+}
+
+
+
+.search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor:text;
+  width: 480px;
+  border-color:transparent;
+  
+
+}
+
+.buttons{
+  display: block;
+  text-align: -webkit-center;
+  height: 70px;
+  padding-top: 18px;
+  color: #bdc1c6;
+  
+ 
+}
+/* butonlara google search teki gibi gölge verildi. */
+.buttons button:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  appearance: auto;
+  border: 1px;
+  border-color:#f2f2f2  ;
+  color: #5f6368 ;
+}
+
+.feelinglucky {
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  height: 36px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #5f6368 ;
+  border: 1px;
+  border-color:#f2f2f2  ;
+}
+
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  overflow: hidden;
+  background-color: #f2f2f2 ;
+}
+
+.footerli {
+  float: left;
+  overflow: hidden;;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  padding: 18px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  
+ 
+ 
+ 
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+
+/* box shadow none: gölge efektinin olmayacağı belirtilmiş. */
+/*  overflow: snırladığımız kutunun dışında kalan alanlar gösterilmez.*/
+/* cursor fare imleci üzerine geldiğiinde nasıl olacağını belirler */
